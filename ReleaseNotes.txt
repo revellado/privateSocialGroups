@@ -1,0 +1,23 @@
+﻿<h3>DNNPrivateSocialGroups</h3>
+<p class="Contributor">
+	PapelClub <br />
+	<a href="mailto:papelclub@gmail.com">papelclub@gmail.com</a><br />
+	<a href=http://papelclubdnn.azurewebsites.net>http://papelclubdnn.azurewebsites.net</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the DNNPrivateSocialGroups</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>
