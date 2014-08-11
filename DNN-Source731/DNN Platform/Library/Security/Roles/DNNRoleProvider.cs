@@ -108,7 +108,8 @@ namespace DotNetNuke.Security.Roles
                                                          UserController.Instance.GetCurrentUserInfo().UserID,
                                                          (int)role.Status,
                                                          (int)role.SecurityMode,
-                                                         role.IsSystemRole));
+                                                         role.IsSystemRole,
+                                                         role.IsListable));
             }
             catch (SqlException e)
             {
