@@ -72,6 +72,7 @@ namespace DotNetNuke.Security.Roles
             BillingFrequency = "N";
             RoleID = Null.NullInteger;
             IsSystemRole = false;
+            IsListable = true;
         }
 
         #region Public Properties
@@ -137,6 +138,14 @@ namespace DotNetNuke.Security.Roles
         /// <value>A boolean (True/False)</value>
         /// -----------------------------------------------------------------------------
         public bool IsPublic { get; set; }
+
+        /// -----------------------------------------------------------------------------
+        /// <summary>
+        /// Gets and sets whether the role is listable
+        /// </summary>
+        /// <value>A boolean (True/False)</value>
+        /// -----------------------------------------------------------------------------
+        public bool IsListable { get; set; }
 
         /// -----------------------------------------------------------------------------
         /// <summary>
