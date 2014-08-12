@@ -1993,7 +1993,7 @@ namespace DotNetNuke.Data
                                        int trialPeriod,
                                        string trialFrequency, bool isPublic, bool autoAssignment, string rsvpCode,
                                        string iconFile, int lastModifiedByUserID, int status, int securityMode,
-                                       bool isSystemRole)
+                                       bool isSystemRole, bool isListable)
         {
             ExecuteNonQuery("UpdateRole",
                                       roleId,
@@ -2013,7 +2013,8 @@ namespace DotNetNuke.Data
                                       lastModifiedByUserID,
                                       status,
                                       securityMode,
-                                      isSystemRole);
+                                      isSystemRole,
+                                      isListable);
         }
 
         public virtual void UpdateRoleSetting(int roleId, string settingName, string settingValue,
