@@ -415,6 +415,7 @@ namespace DotNetNuke.Security.Roles
                     }
                 }
 
+                IsListable = Null.SetNullBoolean(dr["IsListable"]);
 
             }
             catch (IndexOutOfRangeException)
