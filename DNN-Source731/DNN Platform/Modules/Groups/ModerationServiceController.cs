@@ -171,7 +171,7 @@ namespace DotNetNuke.Modules.Groups
                         }
 
                         // Private groups added
-                        if (!_roleInfo.IsPublic && _roleInfo.IsListable) //requireApproval)
+                        if (!_roleInfo.IsPublic) //requireApproval)
                         {
                             RoleController.Instance.AddUserRole(PortalSettings.PortalId, UserInfo.UserID, _roleInfo.RoleID, RoleStatus.Pending, false, Null.NullDate, Null.NullDate);
                             var notifications = new Notifications();
